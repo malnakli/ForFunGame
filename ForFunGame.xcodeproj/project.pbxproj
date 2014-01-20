@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8C65297188CA86B0042ADE2 /* boxView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C65292188CA86B0042ADE2 /* boxView.m */; };
+		D8C65298188CA86B0042ADE2 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C65294188CA86B0042ADE2 /* CircleView.m */; };
+		D8C65299188CA86B0042ADE2 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C65296188CA86B0042ADE2 /* CustomView.m */; };
+		D8D8F6D3188CABD20050E3D0 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D8F6D2188CABD20050E3D0 /* common.m */; };
 		D8DDA071188CA4C0008465FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA070188CA4C0008465FC /* Foundation.framework */; };
 		D8DDA073188CA4C0008465FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA072188CA4C0008465FC /* CoreGraphics.framework */; };
 		D8DDA075188CA4C0008465FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA074188CA4C0008465FC /* UIKit.framework */; };
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8C65291188CA86B0042ADE2 /* boxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boxView.h; sourceTree = "<group>"; };
+		D8C65292188CA86B0042ADE2 /* boxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boxView.m; sourceTree = "<group>"; };
+		D8C65293188CA86B0042ADE2 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		D8C65294188CA86B0042ADE2 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		D8C65295188CA86B0042ADE2 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		D8C65296188CA86B0042ADE2 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		D8C6529B188CA8C40042ADE2 /* DefineAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineAttributes.h; sourceTree = "<group>"; };
+		D8D8F6D1188CABD20050E3D0 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		D8D8F6D2188CABD20050E3D0 /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
 		D8DDA06D188CA4C0008465FC /* ForFunGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForFunGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DDA070188CA4C0008465FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8DDA072188CA4C0008465FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +92,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8C65290188CA82D0042ADE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8C65291188CA86B0042ADE2 /* boxView.h */,
+				D8C65292188CA86B0042ADE2 /* boxView.m */,
+				D8C65293188CA86B0042ADE2 /* CircleView.h */,
+				D8C65294188CA86B0042ADE2 /* CircleView.m */,
+				D8C65295188CA86B0042ADE2 /* CustomView.h */,
+				D8C65296188CA86B0042ADE2 /* CustomView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D8C6529A188CA8A70042ADE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8C6529B188CA8C40042ADE2 /* DefineAttributes.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D8DDA064188CA4C0008465FC = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +146,10 @@
 		D8DDA076188CA4C0008465FC /* ForFunGame */ = {
 			isa = PBXGroup;
 			children = (
+				D8D8F6D1188CABD20050E3D0 /* common.h */,
+				D8D8F6D2188CABD20050E3D0 /* common.m */,
+				D8C6529A188CA8A70042ADE2 /* Models */,
+				D8C65290188CA82D0042ADE2 /* Views */,
 				D8DDA07F188CA4C0008465FC /* ForFunAppDelegate.h */,
 				D8DDA080188CA4C0008465FC /* ForFunAppDelegate.m */,
 				D8DDA082188CA4C0008465FC /* Main.storyboard */,
@@ -250,9 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C65297188CA86B0042ADE2 /* boxView.m in Sources */,
+				D8C65298188CA86B0042ADE2 /* CircleView.m in Sources */,
+				D8D8F6D3188CABD20050E3D0 /* common.m in Sources */,
 				D8DDA081188CA4C0008465FC /* ForFunAppDelegate.m in Sources */,
 				D8DDA07D188CA4C0008465FC /* main.m in Sources */,
 				D8DDA087188CA4C0008465FC /* ForFunViewController.m in Sources */,
+				D8C65299188CA86B0042ADE2 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +505,7 @@
 				D8DDA0A1188CA4C0008465FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8DDA0A2188CA4C0008465FC /* Build configuration list for PBXNativeTarget "ForFunGameTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +514,7 @@
 				D8DDA0A4188CA4C0008465FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
