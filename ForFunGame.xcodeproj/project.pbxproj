@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8DDA071188CA4C0008465FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA070188CA4C0008465FC /* Foundation.framework */; };
+		D8DDA073188CA4C0008465FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA072188CA4C0008465FC /* CoreGraphics.framework */; };
+		D8DDA075188CA4C0008465FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA074188CA4C0008465FC /* UIKit.framework */; };
+		D8DDA07B188CA4C0008465FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8DDA079188CA4C0008465FC /* InfoPlist.strings */; };
+		D8DDA07D188CA4C0008465FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DDA07C188CA4C0008465FC /* main.m */; };
+		D8DDA081188CA4C0008465FC /* ForFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DDA080188CA4C0008465FC /* ForFunAppDelegate.m */; };
+		D8DDA084188CA4C0008465FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DDA082188CA4C0008465FC /* Main.storyboard */; };
+		D8DDA087188CA4C0008465FC /* ForFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DDA086188CA4C0008465FC /* ForFunViewController.m */; };
+		D8DDA089188CA4C0008465FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DDA088188CA4C0008465FC /* Images.xcassets */; };
+		D8DDA090188CA4C0008465FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA08F188CA4C0008465FC /* XCTest.framework */; };
+		D8DDA091188CA4C0008465FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA070188CA4C0008465FC /* Foundation.framework */; };
+		D8DDA092188CA4C0008465FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDA074188CA4C0008465FC /* UIKit.framework */; };
+		D8DDA09A188CA4C0008465FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8DDA098188CA4C0008465FC /* InfoPlist.strings */; };
+		D8DDA09C188CA4C0008465FC /* ForFunGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DDA09B188CA4C0008465FC /* ForFunGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8DDA093188CA4C0008465FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8DDA065188CA4C0008465FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8DDA06C188CA4C0008465FC;
+			remoteInfo = ForFunGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8DDA06D188CA4C0008465FC /* ForFunGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForFunGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DDA070188CA4C0008465FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8DDA072188CA4C0008465FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8DDA074188CA4C0008465FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8DDA078188CA4C0008465FC /* ForFunGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForFunGame-Info.plist"; sourceTree = "<group>"; };
+		D8DDA07A188CA4C0008465FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8DDA07C188CA4C0008465FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8DDA07E188CA4C0008465FC /* ForFunGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForFunGame-Prefix.pch"; sourceTree = "<group>"; };
+		D8DDA07F188CA4C0008465FC /* ForFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForFunAppDelegate.h; sourceTree = "<group>"; };
+		D8DDA080188CA4C0008465FC /* ForFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFunAppDelegate.m; sourceTree = "<group>"; };
+		D8DDA083188CA4C0008465FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8DDA085188CA4C0008465FC /* ForFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForFunViewController.h; sourceTree = "<group>"; };
+		D8DDA086188CA4C0008465FC /* ForFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFunViewController.m; sourceTree = "<group>"; };
+		D8DDA088188CA4C0008465FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8DDA08E188CA4C0008465FC /* ForFunGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForFunGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DDA08F188CA4C0008465FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8DDA097188CA4C0008465FC /* ForFunGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForFunGameTests-Info.plist"; sourceTree = "<group>"; };
+		D8DDA099188CA4C0008465FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8DDA09B188CA4C0008465FC /* ForFunGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFunGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8DDA06A188CA4C0008465FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDA073188CA4C0008465FC /* CoreGraphics.framework in Frameworks */,
+				D8DDA075188CA4C0008465FC /* UIKit.framework in Frameworks */,
+				D8DDA071188CA4C0008465FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DDA08B188CA4C0008465FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDA090188CA4C0008465FC /* XCTest.framework in Frameworks */,
+				D8DDA092188CA4C0008465FC /* UIKit.framework in Frameworks */,
+				D8DDA091188CA4C0008465FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8DDA064188CA4C0008465FC = {
+			isa = PBXGroup;
+			children = (
+				D8DDA076188CA4C0008465FC /* ForFunGame */,
+				D8DDA095188CA4C0008465FC /* ForFunGameTests */,
+				D8DDA06F188CA4C0008465FC /* Frameworks */,
+				D8DDA06E188CA4C0008465FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DDA06E188CA4C0008465FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA06D188CA4C0008465FC /* ForFunGame.app */,
+				D8DDA08E188CA4C0008465FC /* ForFunGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DDA06F188CA4C0008465FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA070188CA4C0008465FC /* Foundation.framework */,
+				D8DDA072188CA4C0008465FC /* CoreGraphics.framework */,
+				D8DDA074188CA4C0008465FC /* UIKit.framework */,
+				D8DDA08F188CA4C0008465FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8DDA076188CA4C0008465FC /* ForFunGame */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA07F188CA4C0008465FC /* ForFunAppDelegate.h */,
+				D8DDA080188CA4C0008465FC /* ForFunAppDelegate.m */,
+				D8DDA082188CA4C0008465FC /* Main.storyboard */,
+				D8DDA085188CA4C0008465FC /* ForFunViewController.h */,
+				D8DDA086188CA4C0008465FC /* ForFunViewController.m */,
+				D8DDA088188CA4C0008465FC /* Images.xcassets */,
+				D8DDA077188CA4C0008465FC /* Supporting Files */,
+			);
+			path = ForFunGame;
+			sourceTree = "<group>";
+		};
+		D8DDA077188CA4C0008465FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA078188CA4C0008465FC /* ForFunGame-Info.plist */,
+				D8DDA079188CA4C0008465FC /* InfoPlist.strings */,
+				D8DDA07C188CA4C0008465FC /* main.m */,
+				D8DDA07E188CA4C0008465FC /* ForFunGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8DDA095188CA4C0008465FC /* ForFunGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA09B188CA4C0008465FC /* ForFunGameTests.m */,
+				D8DDA096188CA4C0008465FC /* Supporting Files */,
+			);
+			path = ForFunGameTests;
+			sourceTree = "<group>";
+		};
+		D8DDA096188CA4C0008465FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA097188CA4C0008465FC /* ForFunGameTests-Info.plist */,
+				D8DDA098188CA4C0008465FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8DDA06C188CA4C0008465FC /* ForFunGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DDA09F188CA4C0008465FC /* Build configuration list for PBXNativeTarget "ForFunGame" */;
+			buildPhases = (
+				D8DDA069188CA4C0008465FC /* Sources */,
+				D8DDA06A188CA4C0008465FC /* Frameworks */,
+				D8DDA06B188CA4C0008465FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForFunGame;
+			productName = ForFunGame;
+			productReference = D8DDA06D188CA4C0008465FC /* ForFunGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8DDA08D188CA4C0008465FC /* ForFunGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DDA0A2188CA4C0008465FC /* Build configuration list for PBXNativeTarget "ForFunGameTests" */;
+			buildPhases = (
+				D8DDA08A188CA4C0008465FC /* Sources */,
+				D8DDA08B188CA4C0008465FC /* Frameworks */,
+				D8DDA08C188CA4C0008465FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DDA094188CA4C0008465FC /* PBXTargetDependency */,
+			);
+			name = ForFunGameTests;
+			productName = ForFunGameTests;
+			productReference = D8DDA08E188CA4C0008465FC /* ForFunGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8DDA065188CA4C0008465FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ForFun;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MoAir;
+				TargetAttributes = {
+					D8DDA08D188CA4C0008465FC = {
+						TestTargetID = D8DDA06C188CA4C0008465FC;
+					};
+				};
+			};
+			buildConfigurationList = D8DDA068188CA4C0008465FC /* Build configuration list for PBXProject "ForFunGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8DDA064188CA4C0008465FC;
+			productRefGroup = D8DDA06E188CA4C0008465FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8DDA06C188CA4C0008465FC /* ForFunGame */,
+				D8DDA08D188CA4C0008465FC /* ForFunGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8DDA06B188CA4C0008465FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDA089188CA4C0008465FC /* Images.xcassets in Resources */,
+				D8DDA07B188CA4C0008465FC /* InfoPlist.strings in Resources */,
+				D8DDA084188CA4C0008465FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DDA08C188CA4C0008465FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDA09A188CA4C0008465FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8DDA069188CA4C0008465FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDA081188CA4C0008465FC /* ForFunAppDelegate.m in Sources */,
+				D8DDA07D188CA4C0008465FC /* main.m in Sources */,
+				D8DDA087188CA4C0008465FC /* ForFunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DDA08A188CA4C0008465FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDA09C188CA4C0008465FC /* ForFunGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8DDA094188CA4C0008465FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8DDA06C188CA4C0008465FC /* ForFunGame */;
+			targetProxy = D8DDA093188CA4C0008465FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8DDA079188CA4C0008465FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DDA07A188CA4C0008465FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8DDA082188CA4C0008465FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DDA083188CA4C0008465FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8DDA098188CA4C0008465FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DDA099188CA4C0008465FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DDA09D188CA4C0008465FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D8DDA09E188CA4C0008465FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DDA0A0188CA4C0008465FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForFunGame/ForFunGame-Prefix.pch";
+				INFOPLIST_FILE = "ForFunGame/ForFunGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8DDA0A1188CA4C0008465FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForFunGame/ForFunGame-Prefix.pch";
+				INFOPLIST_FILE = "ForFunGame/ForFunGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8DDA0A3188CA4C0008465FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForFunGame.app/ForFunGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForFunGame/ForFunGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ForFunGameTests/ForFunGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8DDA0A4188CA4C0008465FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForFunGame.app/ForFunGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForFunGame/ForFunGame-Prefix.pch";
+				INFOPLIST_FILE = "ForFunGameTests/ForFunGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DDA068188CA4C0008465FC /* Build configuration list for PBXProject "ForFunGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DDA09D188CA4C0008465FC /* Debug */,
+				D8DDA09E188CA4C0008465FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DDA09F188CA4C0008465FC /* Build configuration list for PBXNativeTarget "ForFunGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DDA0A0188CA4C0008465FC /* Debug */,
+				D8DDA0A1188CA4C0008465FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8DDA0A2188CA4C0008465FC /* Build configuration list for PBXNativeTarget "ForFunGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DDA0A3188CA4C0008465FC /* Debug */,
+				D8DDA0A4188CA4C0008465FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8DDA065188CA4C0008465FC /* Project object */;
+}
